@@ -1,1 +1,3 @@
-import "../css/options.css";
+import '../css/options.css';
+
+export function getConfig() {}

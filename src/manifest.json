@@ -12,5 +12,11 @@
     "128": "apple-touch-icon-120x120.png"
   },
   "manifest_version": 2,
+  "permissions": [
+    "webRequest",
+    "*://tiktok.com/*",
+    "*://www.tiktok.com/*",
+    "webRequestBlocking"
+  ],
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
